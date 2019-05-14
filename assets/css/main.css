@@ -1,0 +1,21 @@
+body {
+    padding-top: 4.5rem;
+}
+
+.navbar {
+    background-color: #e3f2fd;
+}
+
+.imgprofile {
+    margin-top: 5px; 
+    width: 150px; 
+    height: 150px;
+}
+
+.col-profile-info, .row-create-post, .row-posts {
+    margin-bottom: 20px;
+}
+
+.tab-pane-profile {
+    padding-top: 20px;
+}

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Sevima Post & Share</title>
+	<link rel="stylesheet" type="text/css" media="screen" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="assets/js/jquery-3.3.1.slim.min.js"></script>
+</head>
+<body>
+	<div class="container">
+            <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
+			<a class="navbar-brand" href="home.html">Sevima Post & Share</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+        </nav>
+        <div class="row">
+            <div class="col-md-4 col-profile-info">
+                <div class="list-group">
+                    <div class="list-group-item">
+                        <img src="assets/img/boy1.png" class="rounded mx-auto d-block imgprofile" alt="imgprofile">
+                        <h5 class="text-center card-title">Muhamad Ismuaji Prajitno</h5>
+                    </div>
+                    <a href="profile.html" class="list-group-item list-group-item-action">
+                        <i class="fas fa-user-alt"></i> Profil
+                    </a>
+                    <a href="home.html" class="list-group-item list-group-item-action active">
+                        <i class="fas fa-passport"></i> Beranda
+                    </a>
+                    <a href="auth.html" class="list-group-item list-group-item-action">
+                        <i class="fas fa-sign-out-alt"></i> Keluar
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="row row-create-post">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-header"><strong>Buat Postingan</strong></div>
+                            <div class="card-body">
+                                <form action="#">
+                                    <div class="form-group">
+                                        <textarea class="form-control" name="postcontent" rows="5" placeholder="Apa yang Anda pikirkan, Muhamad Ismuaji Prajitno"></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary float-right">
+                                        <i class="fas fa-edit"></i> Posting
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-posts">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-body text-justify">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="media">
+                                            <img src="assets/img/nopic.png" style="width: 50px;" class="mr-3" alt="...">
+                                            <div class="media-body">
+                                                <h5 class="mt-0"><strong>Bagong Suprayogi</strong></h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row" style="margin-top: 10px;">
+                                    <div class="col-md-12">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                    </div>
+                                    <div class="col-md-12 text-right">
+                                        <button class="btn btn-sm btn-outline-secondary" type="button" id="button-addon2" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-thumbs-up"></i> 2</button>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
+                                            <button type="button" class="btn btn-secondary"><i class="far fa-thumbs-up"></i> Suka</button>
+                                            <button type="button" class="btn btn-secondary"><i class="fas fa-comments"></i> Komentari</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row" style="margin-top: 10px;">
+                                    <div class="col-md-12 border-top border-bottom" style="padding: 10px;">
+                                        <div class="media">
+                                            <img src="assets/img/nopic.png" style="width: 50px;" class="mr-3" alt="...">
+                                            <div class="media-body">
+                                                <div class="input-group mb-3">
+                                                    <input type="text" class="form-control" placeholder="Komentar anda.." aria-label="Komentar anda.." aria-describedby="button-addon2">
+                                                    <div class="input-group-append">
+                                                        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Beri Komentar</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row" style="margin-top: 10px;">
+                                    <div class="col-md-12">
+                                        <ul class="list-unstyled">
+                                            <li class="media">
+                                                <img src="assets/img/nopic.png" class="mr-3" alt="..." style="width: 50px;">
+                                                <div class="media-body">
+                                                    <h5 class="mt-0 mb-1">Semar Suganda</h5>
+                                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                                </div>
+                                            </li>
+                                            <li class="media my-4">
+                                                <img src="assets/img/nopic.png" class="mr-3" alt="..." style="width: 50px;">
+                                                <div class="media-body">
+                                                    <h5 class="mt-0 mb-1">Petruk Uno</h5>
+                                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Penyuka postingan anda</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ul class="list-unstyled">
+                        <li class="media">
+                            <img src="assets/img/nopic.png" class="mr-3" alt="..." style="width: 50px;">
+                            <div class="media-body">
+                                <h5 class="mt-0 mb-1">Semar Suganda</h5>
+                            </div>
+                        </li>
+                        <li class="media my-4">
+                            <img src="assets/img/nopic.png" class="mr-3" alt="..." style="width: 50px;">
+                            <div class="media-body">
+                                <h5 class="mt-0 mb-1">Petruk Uno</h5>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

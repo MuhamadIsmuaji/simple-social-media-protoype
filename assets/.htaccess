@@ -1,0 +1,2 @@
+# if index file inside directory doesn't exists, throw to forbiden
+Options All -Indexes 
